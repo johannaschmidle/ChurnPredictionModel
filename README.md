@@ -1,4 +1,4 @@
-# ChurnPredictionModel
+# Churn Prediction Model
 ## Motivation
 **Goal:** build a machine learning model to predict if a bank's customer will churn (leave the bank) or not.  
 For each instance in the test set, you must predict a 0 or 1 value for the target variable  (Classifier).
