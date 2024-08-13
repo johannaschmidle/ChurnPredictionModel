@@ -42,6 +42,10 @@ For each instance in the test set, you must predict a 0 or 1 value for the targe
 <p align="center">
     <img src="ModelResults.jpg" alt="Model Results" width="700">
 </p>
+- **Best Performing Model:** Random Forest Classifier
+- **Worst Performing Model:** SVC Model (Features)
+- Interestingly, models trained on the original features outperformed those utilizing feature-engineered data. Investigating the reasons behind this unexpected result could provide valuable insights into the feature engineering process and its impact on model performance.
+- Age appears to be a significant predictor of customer churn. This finding suggests that the bank should explore the underlying reasons for why age is such a strong indicator. Implementing targeted promotions or incentives for customers in high-risk age groups could be an effective strategy for reducing churn and retaining these valuable customers.
 
 ## Data
 The dataset used in this project is available publicly on Kaggle: [https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling)
