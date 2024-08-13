@@ -1,4 +1,8 @@
-# Churn Prediction Model
+# Customer Churn Prediction Model
+This repository has my code for my [bank customer churn prediction model](https://www.kaggle.com/code/johannaschmidle7/titanic-survival-predictor) for the [Churn Modelling
+classification data set](https://www.kaggle.com/datasets/shrutimechlearn/churn-modelling) on Kaggle. 
+The data set contains details of a bank's customers. The target variable is a binary variable reflecting whether the customer left the bank (closed their account) or continue to be a customer.
+
 ## Motivation
 **Goal:** build a machine learning model to predict if a bank's customer will churn (leave the bank) or not.  
 For each instance in the test set, you must predict a 0 or 1 value for the target variable  (Classifier).
@@ -11,7 +15,7 @@ For each instance in the test set, you must predict a 0 or 1 value for the targe
    - Histograms
    - KDE plots
    - Univariate Exploration
-2. **Feature Engineering** (note I will train models on original features and engineered features seperately)
+2. **Feature Engineering** (note I will train models on original features and engineered features separately)
    - **Age Group:** grouping customers into age categories can capture non-linear relationships and improve the model’s ability to identify patterns. This approach reduces noise and enhances interpretability by smoothing out variations within age ranges.
   - **Balance to Estimated Salary Ratio:** this provides insight into a customer's financial stability. A higher ratio may indicate financial strain, which could increase the likelihood of the customer leaving the bank.
   - **Tenure Group:** similar to age, tenure will be grouped into categories to capture non-linear effects and reduce noise. This helps the model recognize patterns associated with different lengths of customer tenure, which may not be as easily detected using tenure as a continuous variable.
